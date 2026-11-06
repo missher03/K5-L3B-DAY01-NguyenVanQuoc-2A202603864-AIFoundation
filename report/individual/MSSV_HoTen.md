@@ -24,9 +24,9 @@
 | 3a. Encoder + kNN | 0.902 | 0.923 | 64.7 | 0 |
 | 3b. Encoder + LogReg | 0.936 | 0.923 | 39.8 | 0 |
 | 3c. Encoder + MLP head | 0.956 | 0.976 | 58.7 | 0 |
-| 4a. LLM nhỏ zero-shot | — | 0.976 | 1141.7 | 0.008 |
-| 4b. LLM lớn zero-shot | — | 0.976 | 1241.3 | 0.077 |
-| 4c. LLM nhỏ few-shot | — | 0.976 | 1286.6 | 0.017 |
+| 4a. LLM nhỏ zero-shot | 0.976 | 0.976 | 1141.7 | 0.008 |
+| 4b. LLM lớn zero-shot | 0.976| 0.976 | 1241.3 | 0.077 |
+| 4c. LLM nhỏ few-shot | 0.976 | 0.976 | 1286.6 | 0.017 |
 ## 3. Dự đoán và thực tế
 
 *Chọn 3 dự đoán `predict(...)` lệch nhiều nhất so với kết quả. Mỗi cái: bạn đoán gì, ra gì, vì sao lệch.*
